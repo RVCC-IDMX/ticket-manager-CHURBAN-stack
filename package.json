@@ -1,0 +1,37 @@
+{
+  "name": "ticket-manager-churban-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RVCC-IDMX/ticket-manager-CHURBAN-stack.git"
+  },
+  "keywords": [],
+  "author": "Christopher House <Chur6798@Stu.raritanval.edu> (https://github.com/CHURBAN-stack)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RVCC-IDMX/ticket-manager-CHURBAN-stack/issues"
+  },
+  "homepage": "https://github.com/RVCC-IDMX/ticket-manager-CHURBAN-stack#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.14",
+    "nodemonConfig": {
+      "delay": 3000,
+      "ignore": [
+        "docs/*",
+        "dist/*",
+        "*/*css"
+      ]
+    },
+    "prettier": "^2.4.1"
+  }
+}
