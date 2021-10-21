@@ -1,8 +1,13 @@
+/* eslint-disable prefer-destructuring */
 /* eslint-disable class-methods-use-this */
+const chalk = require('chalk');
+
+const log = console.log;
+
 class EmailService {
-    send(email) {
-        console.log(`Sending email to ${email}`);
-    }
+  send(email) {
+    log(chalk.green(`Sending email to ${email}`));
+  }
 }
 
-module.exports = EmailService
+module.exports = EmailService;

@@ -24,14 +24,9 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
     "nodemon": "^2.0.14",
-    "nodemonConfig": {
-      "delay": 3000,
-      "ignore": [
-        "docs/*",
-        "dist/*",
-        "*/*css"
-      ]
-    },
     "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
   }
 }
